@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 1020px;
+}
+
+.cup{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+.cup1{
+    position: relative;
+    animation-duration: 1.5s;
+    animation-iteration-count: 2;
+    animation-name: cup1ani;
+}
+
+.cup2{
+    position: relative;
+    animation-duration: 1.5s;
+    animation-iteration-count: 2;
+    animation-name: cup2ani;
+}
+
+.cup3{
+    position: relative;
+    animation-duration: 1.5s;
+    animation-iteration-count: 2;
+    animation-name: cup3ani;
+}
+
+#howmuch{
+    position: absolute;
+    top: 28%;
+    left: auto;
+    
+}
+
+#marblechild{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    opacity: 0;
+    z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 40.5%;
+}
+#marblechild2{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    z-index: 0;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 48.75%;
+}
+#marblechild3{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    z-index: 0;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 57%;
+}
+
+.question{
+    position: absolute;
+    top: 20%;
+    left: auto;
+}
+
+#again{
+    position: absolute;
+    top: 60%;
+    left: auto;
+    width: 80px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#again:hover{
+    background-color: lightblue;
+    transition: 0.5s;
+}
+
+
+@keyframes cupup1 {
+    0%   {background-image: none; left: 0px; top:-100px;}
+    25%  {background-image: none; left: 0px; top:-100px;}
+    50%  {background-image: none; left: 0px; top:-100px;}
+    75%  {background-image: none; left: 0px; top:-100px;}
+    100% {background-image: none; left: 0px; top:-100px;}
+}
+
+@keyframes cup1ani {
+    0%   {background-image: none; left: 0px; top:0px;}
+    25%  {background-image: none; left:250px; top:0px;}
+    50%  {background-image: none; left:0px; top:0px;}
+    75%  {background-image: none; left:250px; top:0px;}
+    100% {background-image: none; left:0px; top:0px;}
+}
+
+@keyframes cup2ani {
+    0%   {background-image: none; left:0px; top:0px;}
+    25%  {background-image: none; left:250px; top:0px;}
+    50%  {background-image: none; left:0px; top:0px;}
+    75%  {background-image: none; left:-250px; top:0px;}
+    100% {background-image: none; left:0px; top:0px;}
+}
+
+@keyframes cup3ani {
+    0%   {background-image: none; left:0px; top:0px;}
+    25%  {background-image: none; left:-250px; top:0px;}
+    50%  {background-image: none; left:0px; top:0px;}
+    75%  {background-image: none; left:-250px; top:0px;}
+    100% {background-image: none; left:0px; top:0px;}
+}
+
+
