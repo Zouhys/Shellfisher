@@ -1,4 +1,4 @@
 # Shellfisher
 Just for fun
 
-[Shellfisher](https://Zouhys.github.io/shellfisher/)
+[Shellfisher](https://Zouhys.github.io/Shellfisher/)
